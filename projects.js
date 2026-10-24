@@ -1,11 +1,11 @@
-// Añade aquí nuevas aplicaciones. Usa url: null para proyectos aún sin web.
+// Catálogo de proyectos. Solo se enlazan destinos conocidos.
 const PROJECTS = [
- {name:'SOPA IA',icon:'◉',category:'IA local',description:'Plataforma de inteligencia artificial local.',url:'https://ardu01.github.io/sopa-web/'},
- {name:'Orbit Terminal',icon:'◎',category:'Hardware / OS',description:'Terminal modular Raspberry Pi y HP con Orbit OS.',url:'https://sopa-ia.github.io/orbit-web/'},
- {name:'Fairway',icon:'⚑',category:'Golf / App',description:'Estadísticas y seguimiento de golf.',url:null},
- {name:'Clash Alfinal',icon:'♜',category:'Estrategia / App',description:'Herramientas para gestionar aldeas.',url:null},
- {name:'Desarrollo',icon:'⌘',category:'Código / GitHub',description:'Mis repositorios de código.',url:'https://github.com/ardu01'},
- {name:'Electrónica',icon:'⬡',category:'Hardware',description:'Experimentos y prototipos electrónicos.',url:null},
- {name:'Recursos',icon:'▱',category:'Documentos',description:'Documentación y recursos.',url:null},
- {name:'Nuevo proyecto',icon:'⊞',category:'Ampliable',description:'Espacio reservado para nuevas ideas.',url:null}
+ {name:'SOPA IA',icon:'◉',category:'Inteligencia artificial',description:'Aplicación de escritorio de inteligencia artificial local, orientada al funcionamiento sin conexión y a la experimentación con modelos.',url:'https://ardu01.github.io/sopa-web/',repo:'https://github.com/sopa-ia'},
+ {name:'Orbit Terminal',icon:'◎',category:'Hardware y sistemas',description:'Terminal modular que integra una Raspberry Pi 4 y un mini PC HP, con Orbit OS, carcasa diseñada a medida y conexión Ethernet interna.',url:'https://sopa-ia.github.io/orbit-web/',repo:'https://github.com/sopa-ia/orbit-web'},
+ {name:'Fairway',icon:'⚑',category:'Software deportivo',description:'Aplicación de seguimiento de golf, estadísticas de juego y evolución del hándicap.',url:'https://github.com/ardu01/app-golf',repo:'https://github.com/ardu01/app-golf'},
+ {name:'Clash Alfinal',icon:'♜',category:'Aplicaciones y estrategia',description:'Herramientas de organización y planificación para múltiples aldeas de Clash of Clans.',url:'https://github.com/ardu01?tab=repositories&q=clash',repo:'https://github.com/ardu01?tab=repositories&q=clash'},
+ {name:'Desarrollo',icon:'⌘',category:'Ingeniería de software',description:'Repositorios, prototipos, aplicaciones y experimentos de desarrollo.',url:'https://github.com/ardu01',repo:'https://github.com/ardu01'},
+ {name:'Electrónica',icon:'⬡',category:'Prototipado electrónico',description:'Exploración de microcontroladores, sistemas embebidos y prototipos físicos. Incluye trabajos relacionados con Orbit Terminal.',url:'https://sopa-ia.github.io/orbit-web/#montaje',repo:'https://github.com/sopa-ia/orbit-web'},
+ {name:'Recursos',icon:'▱',category:'Documentación técnica',description:'Acceso al código y documentación pública de los proyectos.',url:'https://github.com/ardu01?tab=repositories',repo:'https://github.com/ardu01'},
+ {name:'Nuevo proyecto',icon:'⊞',category:'Gestión del portfolio',description:'Punto de entrada para ampliar el catálogo de proyectos de este escritorio.',url:'https://github.com/ardu01/Project-Hub-OS/edit/main/projects.js',repo:'https://github.com/ardu01/Project-Hub-OS'}
 ];
